@@ -16,9 +16,12 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-        
+
 		<link rel="stylesheet" href="reveal/css/reveal.css">
-		<link rel="stylesheet" href="reveal/css/theme/white.css" id="theme">
+
+		<!-- Add boostrap css (not included in reveal.js)-->
+		<link rel="stylesheet" href="presentation-data/css/bootstrap.min.css">
+		<link rel="stylesheet" href="reveal/css/theme/moon.css" id="theme">
 
 		<!-- Code syntax highlighting -->
 		<link rel="stylesheet" href="reveal/lib/css/zenburn.css">
@@ -32,11 +35,11 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
-        <!-- Add boostrap css (not included in reveal.js)-->
-        <link rel="stylesheet" href="presentation-data/css/bootstrap.min.css">
-        <!-- CUSTOMIZE STYLESHEET HERE -->        
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700|EB+Garamond|Lora:400,700|Noto+Sans|Raleway|Taviraj" rel="stylesheet">
+		<!-- CUSTOMIZE STYLESHEET HERE -->
 		<link rel="stylesheet" href="presentation-data/css/override.css">
-        
+
 	</head>
 
 	<body>
@@ -45,6 +48,94 @@
 		<div class="reveal">
 			<!-- Any section element inside of this container is a slide -->
 			<div class="slides">
+
+								<!-- IDEA FOR PRESENTATION:
+										 A hand in a fist at the beginning of the presentation, that
+										 slowly opens as I progress through the presentation. Put the fist
+										 at 'My Beginning.' To get the drawings, take pictures of me signing
+										 and turn them into svgs or nicely textured photos in Affinity.
+									 -->
+								<!-- In presentation, prioritize most important and impactful experiences.
+										 Include parts about how I developed my passion for coding and
+										 rediscovered Deaf culture.
+									 -->
+
+								<!-- #1 -->
+								<section>
+									<h2 class="center-title">Sofie's<br />Senior EDCRO Review</h2>
+									<div class="row" align="middle">
+										<img class="img-responsive" height="40%" width="40%" data-src="presentation-data/img/senior-photo.jpg" />
+									</div>
+								</section>
+
+								<!-- #2 -->
+								<section>
+									<h3>My Beginning</h3>
+									<p>
+										I came to A3 because my parents suggested it. They said it was a good place
+										to go to because, it was small, with a welcome community.
+									</p>
+									<p>
+										As a deaf person who needed accomodations, it seemed ideal.
+									</p>
+									<p>
+										At that point, however, I was also anxious in social situations and I had
+										no idea what I wanted to do for my carreer. Little did I know, A3 would change
+										that.
+									</p>
+								</section>
+
+								<!-- #3 -->
+								<section>
+									<h3>My First Headwaters</h3>
+									<p>
+										I was a shy person when I first came to A3,
+									</p>
+									<p>
+										It was stressful at first, because I was surrounded by people I didn't know,
+									</p>
+									<p>
+										But then I came to know them. They were supportive, and wanted to make sure
+										that they could hear me. At the end of it, there was a schoolwide
+										conversation where everyone was going up and saying what they liked about
+										Headwaters. Nervously, I went up, and thanked everyone for being so willing
+										to accomodate me. It was that experience that helped solidify my
+										confidence.
+									</p>
+								</section>
+
+								<section>
+									<h3>Learning Coding</h3>
+									<p>
+										One of my most impactful classes I had was Creative Coding. It made me interested
+										in programming and problem-solving, and gave me a direction for my carreer.
+									</p>
+									<p>
+										Before, I didn't have any pacticular interests. However, I found that coding was
+										something I wanted to even outside of class.
+									</p>
+									<p>
+										This help set the stage for what was to come.
+									</p>
+								</section>
+
+								<section>
+									<h3>The Internship</h3>
+									<p>
+										Because my mother knew I was interested in coding, she suggested I apply for
+										an internship at the U of O. I applied, and got in.
+									</p>
+									<p>
+
+									</p>
+									<p>
+										In the summer of my Junior year, I applied for an internship at the University
+										of Oregon, and got in.
+									</p>
+									<p>
+
+									</p>
+								</section>
 
                 <section>
                     <h4>Bootstrap-based slide layout</h4>
@@ -83,13 +174,13 @@
                         </video>
                     </div>
                 </section>
-   
+
                 <section>
                     <h4>D3 embed</h4>
                     <button align="middle" onclick="transition()">Update</button>
                     <div id="d3embed"></div>
                 </section>
-                        
+
 			</div>
 
 		</div>
@@ -98,7 +189,7 @@
 
 		<script src="reveal/lib/js/head.min.js"></script>
 		<script src="reveal/js/reveal.js"></script>
-    
+
 		<script>
 
 			// Full list of configuration options available at:
@@ -110,7 +201,7 @@
 				center: true,
 
 				transition: 'slide', // none/fade/slide/convex/concave/zoom
-                
+
 /* NOTE:: Uncomment if using local MathJax (rather than CDN)
                 // Add math
                 math: {
@@ -118,7 +209,7 @@
                     config: 'TeX-AMS_HTML-full'  // See http://docs.mathjax.org/en/latest/config-files.html
                 },
 */
-                
+
 				// Optional reveal.js plugins
 				dependencies: [
 					{ src: 'reveal/lib/js/classList.js', condition: function() { return !document.body.classList; } },
