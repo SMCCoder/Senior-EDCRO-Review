@@ -7,7 +7,7 @@
     box-shadow: none !important;*/
 }
 
-.reveal section:not(:first-child):not(.center-title) {
+.reveal section:not(:first-child):not(.center-title), .reveal section section {
     top: 0px !important;
 }
 
@@ -23,6 +23,11 @@ font-family: 'EB Garamond', serif;
 */
 }
 
+.reveal p {
+  font-size: .9em;
+  margin-bottom: 1.4em;
+}
+
 .reveal h2, .reveal h3, .reveal h4 {
     border-bottom: 1px solid white;
     padding-bottom: .3em;
@@ -34,8 +39,9 @@ font-family: 'EB Garamond', serif;
 }
 
 .reveal iframe {
-    max-width: 100%;
-    margin-top: 315px;
+    /*max-width: 100%;*/
+    /*margin-top: 315px;*/
+    /*max-height: 100%;*/
 }
 
 .reveal section img {
